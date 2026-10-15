@@ -5,7 +5,7 @@ permalink: /gizlilik
 
 # Kaça Patlar — Gizlilik Politikası
 
-Son güncelleme: 13 Ekim 2026
+Son güncelleme: 15 Ekim 2026
 
 Kaça Patlar bir yolculuğun otoyol, köprü, tünel, yakıt ve şarj masrafını hesaplar. Uygulamanın bir sunucusu, hesap sistemi, reklamı ve analitiği yoktur. Geliştirici olarak sizinle ilgili hiçbir veriyi toplamıyor, saklamıyor ve kimseyle paylaşmıyoruz.
 
@@ -29,6 +29,7 @@ Bir masraf bölüşmesi için "Ortak yolculuk başlat"a dokunursanız bölüşme
 Uygulama hesaplama için şu hizmetlere istek gönderir. Bu isteklerde kimliğinizi belirten bir bilgi yoktur:
 
 - **Apple Haritalar (MapKit):** Rota, yer arama ve adres bilgisi. Apple'ın gizlilik politikası geçerlidir.
+- **Apple Hava Durumu (WeatherKit):** Elektrikli araçta soğuk havanın tüketime etkisini hesaplamak için rotanın başlangıç ve varış noktasının koordinatları ile çıkış ve varış saati, tahmini sıcaklığı almak üzere Apple'a gönderilir. Apple'ın gizlilik politikası geçerlidir.
 - **EPDK:** Güncel akaryakıt fiyatları. İl fiyatı istendiğinde yalnızca ilin plaka kodu gönderilir.
 - **Apple iCloud (herkese açık veritabanı):** Güncel gişe tarifeleri indirilir; sizden hiçbir bilgi gönderilmez.
 - **Apple Haritalar kısa bağlantıları:** Apple Haritalar'dan paylaştığınız kısa bağlantı, açılabilmesi için Apple'a sorulur.
@@ -45,4 +46,4 @@ Bu politika değişirse güncel hali bu sayfada yayımlanır. Sorularınız içi
 
 # Privacy Policy (English summary)
 
-Kaça Patlar has no server, accounts, ads or analytics, and the developer collects no data. Location is used on device only (starting point, province fuel prices, and the Live Activity after you start a trip) and is never stored or sent to the developer. Your vehicles, fuel logs and expense splits stay on your device and, if you use iCloud, in your private iCloud database, which only you can access. If you start a shared trip, anyone with the join link can view and edit that expense split through iCloud sharing. The app sends requests to Apple Maps, EPDK (the province plate code only, for fuel prices) and a public iCloud database (toll tariffs). Contact: https://github.com/emircanbakar/kaca-patlar-destek/issues
+Kaça Patlar has no server, accounts, ads or analytics, and the developer collects no data. Location is used on device only (starting point, province fuel prices, and the Live Activity after you start a trip) and is never stored or sent to the developer. Your vehicles, fuel logs and expense splits stay on your device and, if you use iCloud, in your private iCloud database, which only you can access. If you start a shared trip, anyone with the join link can view and edit that expense split through iCloud sharing. The app sends requests to Apple Maps, Apple Weather (start and destination coordinates and times, for the temperature forecast), EPDK (the province plate code only, for fuel prices) and a public iCloud database (toll tariffs). Contact: https://github.com/emircanbakar/kaca-patlar-destek/issues
