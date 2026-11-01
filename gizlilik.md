@@ -5,7 +5,7 @@ permalink: /gizlilik
 
 # Kaça Patlar — Gizlilik Politikası
 
-Son güncelleme: 15 Ekim 2026
+Son güncelleme: 30 Ekim 2026
 
 Kaça Patlar bir yolculuğun otoyol, köprü, tünel, yakıt ve şarj masrafını hesaplar. Uygulamanın bir sunucusu, hesap sistemi, reklamı ve analitiği yoktur. Geliştirici olarak sizinle ilgili hiçbir veriyi toplamıyor, saklamıyor ve kimseyle paylaşmıyoruz.
 
@@ -13,11 +13,12 @@ Kaça Patlar bir yolculuğun otoyol, köprü, tünel, yakıt ve şarj masrafın�
 
 - Konumunuz yalnızca izin verirseniz ve yalnızca şu durumlarda kullanılır: rotayı bulunduğunuz yerden başlatmak, yakıt fiyatını bulunduğunuz ile göre almak ve "Yolculuğu başlat"a dokunduktan sonra Canlı Etkinlik'te kalan gişeleri ve tutarı güncellemek.
 - Yolculuk takibi, siz "Yolculuğu bitir"e dokununca ya da yolculuk tamamlanınca durur. Ekran kapalıyken de sürmesi için arka planda konum kullanılır; bu sırada iOS durum çubuğunda konum göstergesi görünür.
-- Konumunuz cihazda işlenir ve geliştiriciye gönderilmez. Yolculuk takibindeki konum kaydedilmez. Rotayı bulunduğunuz yerden başlattıysanız başlangıç noktası rotanın bir parçası olarak saklanabilir: son rota widget'ı için yalnız bu cihazda, kaydettiğiniz masraf bölüşmelerinin rota bağlantısında ise cihazınızda ve iCloud'unuzda. Rota bağlantısındaki koordinatlar yaklaşık 11 metreye yuvarlanır.
+- Konumunuz cihazda işlenir ve geliştiriciye gönderilmez. Yolculuk takibindeki konum kaydedilmez. Rotayı bulunduğunuz yerden başlattıysanız başlangıç noktası rotanın bir parçası olarak saklanabilir: son rota widget'ı için yalnız bu cihazda, kaydettiğiniz masraf bölüşmelerinin, kayıtlı rotalarınızın ve aylık masraf raporundaki yolculukların rota bağlantısında ise cihazınızda ve iCloud'unuzda. Kayıtlı rotayı "konumumdan başlasın" diye kaydettiyseniz başlangıç saklanmaz. Rota bağlantısındaki koordinatlar yaklaşık 11 metreye yuvarlanır.
 
 ## Cihazınızda ve iCloud'unuzda saklananlar
 
-- Garajınızdaki araçlar, yakıt ve şarj kayıtlarınız, masraf bölüşmeleriniz ve ayarlarınız cihazınızda saklanır.
+- Garajınızdaki araçlar, yakıt ve şarj kayıtlarınız (girdiyseniz ödenen tutarla), masraf bölüşmeleriniz, kayıtlı yerleriniz (ev, iş ve favoriler: ad, adres ve koordinat) ve kayıtlı rotalarınız (ad, durak adları, rota bağlantısı ve son hesaplanan tutar), aylık masraf raporu için kaydedilen yolculuklarınız (tarih, başlangıç ve varış adı, rota bağlantısı, yol, geçiş ve yakıt tutarı) ve ayarlarınız cihazınızda saklanır. Yolculuk, "Yolculuğu başlat" ile izlenip bitince ya da "Aylık masraflara ekle"ye dokununca kaydedilir; rapordan silebilirsiniz.
+- Aramada seçtiğiniz son yerler (en fazla sekiz; ad, adres ve koordinat) aramayı kolaylaştırmak için yalnız bu cihazda tutulur; iCloud'a eşitlenmez. Arama sayfasında "Temizle" ile silebilirsiniz.
 - Son hesapladığınız rotanın özeti (başlangıç ve varış adı, tutarlar, rota bağlantısı) ana ekran widget'ında gösterilmek için yalnız bu cihazda tutulur; iCloud'a eşitlenmez. Yeni bir rota hesaplayınca üzerine yazılır, uygulamayı silince silinir.
 - iCloud'a girişliyseniz bu veriler cihazlarınız arasında eşitlenmek için kendi iCloud hesabınızın **özel** veritabanında tutulur. Bu veritabanına yalnızca siz erişebilirsiniz; geliştirici erişemez. Verileri silmek için uygulamadaki kaydı silmeniz ya da Ayarlar › [adınız] › iCloud'dan uygulamanın verisini silmeniz yeterlidir.
 
@@ -47,4 +48,4 @@ Bu politika değişirse güncel hali bu sayfada yayımlanır. Sorularınız içi
 
 # Privacy Policy (English summary)
 
-Kaça Patlar has no server, accounts, ads or analytics, and the developer collects no data. Location is used on device only (starting point, province fuel prices, and the Live Activity after you start a trip) and is never sent to the developer. Trip-tracking locations are not stored; a route started from your location keeps that start point (rounded to about 11 m) in the Last Route widget's on-device summary and in the route link of expense splits you save (on device and in your iCloud). Your vehicles, fuel logs and expense splits stay on your device and, if you use iCloud, in your private iCloud database, which only you can access. If you start a shared trip, anyone with the join link can view and edit that expense split through iCloud sharing. The app sends requests to Apple Maps, Apple Weather (start and destination coordinates and times, for the temperature forecast), EPDK (the province plate code only, for fuel prices) and a public iCloud database (toll tariffs). Contact: https://github.com/emircanbakar/kaca-patlar-destek/issues
+Kaça Patlar has no server, accounts, ads or analytics, and the developer collects no data. Location is used on device only (starting point, province fuel prices, and the Live Activity after you start a trip) and is never sent to the developer. Trip-tracking locations are not stored; a route started from your location keeps that start point (rounded to about 11 m) in the Last Route widget's on-device summary and in the route link of expense splits, saved routes and saved trips (on device and in your iCloud). Your vehicles, fuel logs (with the amount paid, if entered), expense splits, saved places (home, work and favorites, with their coordinates), saved routes and the trips saved for the monthly expense report stay on your device and, if you use iCloud, in your private iCloud database, which only you can access. Recent searches (up to eight places) stay on this device only. If you start a shared trip, anyone with the join link can view and edit that expense split through iCloud sharing. The app sends requests to Apple Maps, Apple Weather (start and destination coordinates and times, for the temperature forecast), EPDK (the province plate code only, for fuel prices) and a public iCloud database (toll tariffs). Contact: https://github.com/emircanbakar/kaca-patlar-destek/issues
