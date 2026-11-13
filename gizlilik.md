@@ -5,7 +5,7 @@ permalink: /gizlilik
 
 # Kaça Patlar — Gizlilik Politikası
 
-Son güncelleme: 9 Kasım 2026
+Son güncelleme: 13 Kasım 2026
 
 Kaça Patlar bir yolculuğun otoyol, köprü, tünel, yakıt ve şarj masrafını hesaplar. Uygulamanın bir sunucusu, hesap sistemi, reklamı ve analitiği yoktur. Geliştirici olarak sizinle ilgili hiçbir veriyi toplamıyor, saklamıyor ve kimseyle paylaşmıyoruz.
 
@@ -20,6 +20,7 @@ Kaça Patlar bir yolculuğun otoyol, köprü, tünel, yakıt ve şarj masrafın�
 - Garajınızdaki araçlar, yakıt ve şarj kayıtlarınız (girdiyseniz ödenen tutarla), masraf bölüşmeleriniz, kayıtlı yerleriniz (ev, iş ve favoriler: ad, adres ve koordinat) ve kayıtlı rotalarınız (ad, durak adları, rota bağlantısı ve son hesaplanan tutar), aylık masraf raporu için kaydedilen yolculuklarınız (tarih, başlangıç ve varış adı, rota bağlantısı, yol, geçiş ve yakıt tutarı) ve ayarlarınız cihazınızda saklanır. Yolculuk, "Yola çık" ile izlenip bitince ya da "Aylık masraflara ekle"ye dokununca kaydedilir; rapordan silebilirsiniz.
 - Aramada seçtiğiniz son yerler (en fazla sekiz; ad, adres ve koordinat) aramayı kolaylaştırmak için yalnız bu cihazda tutulur; iCloud'a eşitlenmez. Arama sayfasında "Temizle" ile silebilirsiniz.
 - Son hesapladığınız rotanın özeti (başlangıç ve varış adı, tutarlar, rota bağlantısı) ana ekran widget'ında gösterilmek için yalnız bu cihazda tutulur; iCloud'a eşitlenmez. Yeni bir rota hesaplayınca üzerine yazılır, uygulamayı silince silinir.
+- Hesapladığınız son 30 rota (duraklar, bulunduğunuz yerden başladıysa başlangıç noktası dahil, rota çizgisi ve yol tarifi) internet yokken yeniden açılabilmesi için yalnız bu cihazda tutulur; iCloud'a eşitlenmez ve yedeğe alınmaz. Daha yeni rotalar hesaplandıkça en eskisi silinir, uygulamayı silince hepsi silinir.
 - iCloud'a girişliyseniz bu veriler cihazlarınız arasında eşitlenmek için kendi iCloud hesabınızın **özel** veritabanında tutulur. Bu veritabanına yalnızca siz erişebilirsiniz; geliştirici erişemez. Verileri silmek için uygulamadaki kaydı silmeniz ya da Ayarlar › [adınız] › iCloud'dan uygulamanın verisini silmeniz yeterlidir.
 
 ## Ortak yolculuk
